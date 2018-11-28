@@ -1,0 +1,103 @@
+#main-div {
+    height: 100%;
+    width: 80%;
+    background-image: url("images/river.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+#top-div {
+    height: 300px;
+    width: 400px;
+    padding-top: 20px;
+    padding-right: 20%;
+    padding-left: 20%;
+    padding-bottom: 20px;
+    margin: auto;
+
+}
+
+#img {
+    width: 150px;
+}
+
+.line1 {
+    height: 100px;
+    width: 100px;
+}
+
+#div {
+    width: 100%;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#div1 {
+    width: 100%;
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.item-div {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    border: 1px solid white;
+    text-align: center;
+
+}
+
+.item-div img {
+    width: 100px;
+    height: 100px;
+}
+
+.item-div2 {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: auto;
+    border: 1px solid red;
+    text-align: center;
+}
+.item-div2 img {
+    width: 100px;
+    height: 100px;
+}
+
+.item-div p {
+    color: white;
+}
+
+button {
+    border: 2px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #4A90E2;
+    font-family: Verdana;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: chartreuse;
+    }
