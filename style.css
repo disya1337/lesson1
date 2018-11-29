@@ -1,5 +1,5 @@
 #main-div {
-    height: 100%;
+    height: 155%;
     width: 80%;
     background-image: url("images/river.jpg");
     background-position: center;
@@ -7,7 +7,7 @@
     background-size: cover;
     padding-left: 10%;
     padding-right: 10%;
-
+   outline: 5px solid black;
 }
 
 #top-div {
@@ -37,6 +37,8 @@
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-left: 9%;
+    margin-right: 9%;
 
 }
 
@@ -47,6 +49,8 @@
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-left: 9%;
+    margin-right: 9%;
 
 }
 
@@ -55,9 +59,11 @@
     padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin: auto;
+    margin: 5px;
     border: 1px solid white;
     text-align: center;
+    background: black;
+    border-radius: 10px;
 
 }
 
@@ -67,13 +73,15 @@
 }
 
 .item-div2 {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 8px;
     border: 1px solid red;
     text-align: center;
+    color: red;
+    border-radius: 10px;
 }
 .item-div2 img {
     width: 100px;
@@ -101,3 +109,23 @@ button {
 button:hover {
     background: chartreuse;
     }
+
+.div-car img{
+    width: 400px;
+    height: 130px;
+    border-radius: 15px;
+}
+
+.div-car {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 30%;
+    margin-right: 25%;
+}
+
+.cost {
+    font-family: Consolas;
+    font-size: 25px;
+}
