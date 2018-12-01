@@ -1,25 +1,25 @@
 #main-div {
     height: 155%;
-    width: 80%;
+    width: 100%;
     background-image: url("images/river.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     padding-left: 10%;
     padding-right: 10%;
+
    outline: 5px solid black;
 }
 
 #top-div {
-    height: 300px;
     width: 400px;
     padding-top: 20px;
-    padding-right: 20%;
-    padding-left: 20%;
+    justify-content: center;
     padding-bottom: 20px;
     margin: auto;
 
 }
+
 
 #img {
     width: 150px;
@@ -33,24 +33,19 @@
 #div {
     width: 100%;
     display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 9%;
-    margin-right: 9%;
+    justify-content: center;
 
 }
 
 #div1 {
     width: 100%;
     display: flex;
-    padding-left: 20px;
-    padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin-left: 9%;
-    margin-right: 9%;
+    justify-content: center;
+
 
 }
 
@@ -128,4 +123,54 @@ button:hover {
 .cost {
     font-family: Consolas;
     font-size: 25px;
+}
+
+.final-div{
+
+
+}
+
+#item-main-div {
+    height: 90%;
+    width: 90%;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    background-color: ghostwhite;
+}
+
+#item-image{
+    background: black;
+    border-radius: 5px;
+    height: 80%;
+    justify-content: center;
+    color: white;
+    padding: 25px;
+}
+#item-image img{
+    height: 250px;
+    width: 350px;
+    margin-top: 3%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    justify-content: center;
+
+}
+
+#item-form{
+    background: red;
+    height: 80%;
+    border-radius: 5px;
+}
+
+#form-div{
+   height: 80%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+
 }
